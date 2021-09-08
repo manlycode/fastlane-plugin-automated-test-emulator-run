@@ -19,7 +19,7 @@ module Fastlane
 
           # Get paths
           path_sdk = "#{params[:SDK_path]}"
-          path_avdmanager_binary = path_sdk + "/tools/bin/avdmanager"
+          path_avdmanager_binary = path_sdk + "/cmdline-tools/latest/bin/avdmanager"
           path_adb = path_sdk + "/platform-tools/adb"
           path_avd = "#{params[:AVD_path]}"
 
